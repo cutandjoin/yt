@@ -1,0 +1,32 @@
+//5-24行目のファイルパスを書き換えてからCjumのテキストエディタに貼り付けて実行
+CJMP Reset
+CJM Cut,Reframe,Sequence
+#
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen01_175.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen02_165.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen03_167.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen04_170.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen05_158.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen06_169.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen07_172.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen08_165.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen09_175.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen10_135.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen11_145.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen12_137.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen13_173.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen14_175.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen15_174.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen16_167.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen17_175.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen18_178.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen19_172.mp3
+C:\Users\CJ\rhythm-lab.com_amen\cw_amen20_164.mp3
+CJM SelectAll,Split
+CJM CueE(1,1500,16,0,0,0),Convert
+CJM Merge
+CJM Shuffle
+CJM Reblock(4)
+CJM Compress
+CJM Copy(3)
+CJM SelectAll,Merge
