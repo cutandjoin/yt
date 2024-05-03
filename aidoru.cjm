@@ -1,0 +1,15 @@
+//5-6行目のファイルパスを書き換えてからCjumのテキストエディタに貼り付けて実行
+CJMP Reset
+CJM Cut,Reframe,Sequence
+#
+C:\Users\CJ\01 - アイドル.mp3
+C:\Users\CJ\01 - Idol.mp3
+CJM SelectAll,Split
+CJM CueE(1,1500,1,1,0,0),NameEmNum(2,0,3,0),Convert
+CJM Merge
+CJM Alphabetize
+CJM Reblock(2)
+CJM ShuffleInB
+CJM SelectRangeInB
+CJM Remove
+CJM SelectAll,Merge
