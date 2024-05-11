@@ -1,0 +1,20 @@
+//5-6行目のファイルパスを書き換えてからCjumのテキストエディタに貼り付けて実行
+CJMP Reset
+CJM Cut,Reframe,Sequence
+#
+C:\Users\CJ\01 - 勇者.mp3
+C:\Users\CJ\01 - The Brave.mp3
+CJM SelectAll,Split
+CJM CueE(1,2,7,2,0,0),Convert
+CJM UnfixCue
+CJM SelectCount(2,1,1,0,0),Remove
+CJM SelectAll
+CJM CueE(1,1500,0.5,1,0,0),NameEmNum(2,0,3,0),Convert
+CJM Merge
+CJM Alphabetize
+CJM Reblock(2)
+CJM SelectRangeB(1,3000,1,0)
+CJM ReverseInB
+CJM SelectRangeInB
+CJM Remove
+CJM SelectAll,Merge
