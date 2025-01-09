@@ -1,4 +1,4 @@
-//5-24行目のファイルパスを書き換えてからCjumのテキストエディタに貼り付けて実行
+//Rewrite the file paths in lines 5–24, then paste the entire text into Cjam's text editor and run.
 CJMP Reset
 CJM Cut,Reframe,Sequence
 #
